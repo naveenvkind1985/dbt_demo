@@ -41,7 +41,7 @@ dbt init my_dbt_projects
 ```
 
 #### Step 4: Configure Snowflake Connection
-Edit `~/.dbt/profiles.yml`:
+nano ~/.dbt/profiles.yml
 
 ```yaml
 my_dbt_projects:
