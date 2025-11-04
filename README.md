@@ -19,7 +19,7 @@ This document outlines the complete step-by-step process of setting up a dbt (da
 
 #for MAC
 # Create virtual environment
-python3.12 -m venv .venv
+python3 -m venv .venv
 
 # Activate virtual environment
 source .venv/bin/activate
