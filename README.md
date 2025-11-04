@@ -51,6 +51,11 @@ dbt init my_dbt_projects
 ```
 
 #### Step 4: Configure Snowflake Connection
+#For Windows
+mkdir $HOME\.dbt
+notepad $HOME\.dbt\profiles.yml
+
+#For MAC
 nano ~/.dbt/profiles.yml
 
 ```yaml
