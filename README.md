@@ -16,6 +16,12 @@ This document outlines the complete step-by-step process of setting up a dbt (da
 
 #### Step 1: Python Virtual Environment
 ```bash
+
+#for windows only
+# Upgrade pip to a compatible version
+python -m pip install --upgrade "pip<21.0"
+
+#for MAC
 # Create virtual environment
 python3.12 -m venv .venv
 
@@ -25,8 +31,12 @@ source .venv/bin/activate
 
 #### Step 2: Install dbt and Dependencies
 ```bash
-# Install dbt core and Snowflake adapter
+
+# Now install dbt-core and dbt-snowflake for windows
 pip install dbt-core dbt-snowflake
+
+# Install dbt core and Snowflake adapter for mac
+pip3 install dbt-core dbt-snowflake
 
 # Verify installation
 dbt --version
